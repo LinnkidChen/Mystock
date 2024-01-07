@@ -1,0 +1,12 @@
+
+version: '3'
+services:
+  teststock:
+    container_name: teststock
+    build: .
+    environment:
+      ENV: DEV 
+      FLASK_APP: teststock_flask.py
+    volumes:
+      - ./app:/app
+    command: flask run 

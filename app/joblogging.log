@@ -1,0 +1,3 @@
+Tong         2023-12-30 12:42:32,191 INFO     logger.py:<module> logger starts running
+Tong         2023-12-30 12:42:35,732 INFO     Indicators.py:<module> running test on /Users/tongchen/Documents/stock-main/writing/app/job/Indicators.py
+Tong         2023-12-30 12:42:36,367 INFO     Stock.py:run stop running cerebrovalue is 100000.0
