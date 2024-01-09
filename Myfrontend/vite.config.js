@@ -13,8 +13,12 @@ export default defineConfig({
   plugins: [
     vue(),
     AutoImport({
+      imports:["vue"
+      ],
       resolvers: [
-        ElementPlusResolver(),
+      
+        ElementPlusResolver( 
+        ),
         IconsResolver({
           prefix: 'Icon'
         })

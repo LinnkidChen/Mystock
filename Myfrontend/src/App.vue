@@ -21,7 +21,6 @@ import MainNavi from './components/MainNavi.vue'
   <RouterView />
 </template> -->
 <template>
-  <p>HelloWorld</p>
 <RouterView/>
 </template>
 
