@@ -8,7 +8,7 @@ from .errors import bad_request, forbidden, unauthorized
 import datetime
 
 import random
-from findGourmet import basedir
+from flaskapp import basedir
 import os
 
 auth = HTTPTokenAuth(scheme='Bearer')

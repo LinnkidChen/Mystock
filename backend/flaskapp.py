@@ -1,4 +1,4 @@
-# please set environment variable FLASK_APP=findGourmet.py
+# please set environment variable FLASK_APP=flaskapp.py
 
 import os
 import click
@@ -22,3 +22,6 @@ def make_shell_context():
     return dict(
         db=db,
     )
+@app.route("/")
+def hello_world():
+    return "<h1>hello world</h1>"

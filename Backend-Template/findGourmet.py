@@ -1,4 +1,4 @@
-# please set environment variable FLASK_APP=findGourmet.py
+# please set environment variable FLASK_APP=flaskapp.py
 
 import os
 import click

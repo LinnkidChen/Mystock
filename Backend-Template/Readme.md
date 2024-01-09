@@ -3,7 +3,7 @@
 flask run之前务必设置：
 
 ```
-    set FLASK_APP=findGourmet.py
+    set FLASK_APP=flaskapp.py
     set FINDG_ADMIN=admin@admin.com
 
 ```

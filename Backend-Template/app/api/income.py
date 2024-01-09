@@ -9,7 +9,7 @@ from .errors import bad_request, forbidden, unauthorized
 from datetime import datetime
 from werkzeug.utils import secure_filename
 import random
-from findGourmet import basedir
+from flaskapp import basedir
 import base64
 import hashlib
 import os

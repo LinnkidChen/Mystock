@@ -22,7 +22,7 @@ class Config:
     ADMIN_PERMISSION = 1
     POST_PHOTO_NUM = 3
     TYPES = ["家乡小吃", "地方特色小馆", "香辣味", "甜酸味", "绝一味菜"]
-
+    DEBUG = True
     @staticmethod
     def init_app(app):
         pass
